@@ -1,0 +1,892 @@
+body{
+    width:100%;
+    margin:0px;
+    font-family: sans-serif;
+    background-color:rgba(207, 224, 224, 0.39);
+}
+header{
+    position: relative;
+    background-position: center;
+}
+div.home{
+    background-size:cover;
+    background-image: linear-gradient(to left top,rgba(0, 0, 0, 0.603),rgba(0, 0, 0, 0.603)) ,url(uploads/banner-01.jpg);
+    height:660px;
+    width:100%;  
+}
+.icon{
+   float:left;
+   margin-top: 25px;
+   margin-left: 7%;
+}
+ul.navBar{
+    position: absolute;
+    display: inline-block;
+    list-style-type:none;
+    text-align: right;
+    margin:50px 0px 0px 0px;
+    right: 0%;
+    padding:5px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+li.navTab{
+    font-size: 15px;
+    font-family: sans-serif;
+    display:inline-block;
+    font-weight: 600;
+    color:white;
+    border-bottom-left-radius:140px; 
+    border-top-left-radius:150px;
+    border-top-right-radius:150px;
+    padding:10px;
+    padding-left: 0px;
+    padding-right: 6px;
+}
+.mobileNav{
+    height: 12px;
+    color:white;
+    position: relative;
+}
+.bannerText{
+    display:inline-block;
+    margin:0px auto;
+    position: absolute;
+    right:10%;
+    top:2.6%;
+    width:70%;
+    height:auto;
+    text-align: center;
+}
+.headerText{
+    margin:70px 0px auto;
+    font-size:75px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color:white;
+    display: inline-block;
+}
+.maquee{
+    display:inline-block;
+    color:white;
+    margin: 20px auto;
+    width:100%;
+    font-size:25px;
+    font-weight: 10;
+}
+button{
+    list-style-type:none;
+    text-align: center;
+    display: inline-block;
+    text-transform: capitalize;
+    border-radius:50px;
+    padding:17px;
+    margin-top: 2%;
+    font-weight:400;
+    padding-left:6%;
+    padding-right:6%;
+}
+.btnBlack{
+    list-style-type:none;
+    text-align: center;
+    display: inline-block;
+    text-transform: capitalize;
+    border-radius:50px;
+    padding:17px;
+    font-weight:400;
+    padding-left:2%;
+    padding-right:2%;
+}
+    
+#white{
+    background-color: white;
+    color:rgba(138, 128, 128, 0.808);
+}
+#black{
+    background-color:rgb(44, 42, 42);
+    color:white
+}
+div.home2{
+    background-color: #fff;
+    height:450px;
+    padding:4%;
+    position: relative;
+}
+.hp{
+    line-height: 150%;
+    display:block;
+    font-size: 14px;
+    color:rgb(134, 134, 134);
+}
+div.pic{
+    position: absolute;
+    background-color:black;
+    float:right;
+    top:110px;
+    right:7.5%;
+    width:45%;
+    height:68%;
+    border-bottom-left-radius:90px;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 90px;
+}
+#hpic2{
+    top:98px;
+    right:9%;
+    position: absolute;
+    float: left;
+    width:45%;
+    height:68%;
+    box-shadow: -8px -6px 18px rgba(196, 196, 209, 0.486);
+}
+.textArea{
+    display: inline-block;
+    position:absolute;
+    top:110px;
+    width:38%;
+}
+span#hht{
+    display: inline-block;
+    font-size: 40px;
+    font-weight:bold;
+}
+.h2botton{
+    display: inline-block;
+    font-size: 14px;
+    list-style-type: none;
+    padding:1.5%;
+    text-align: center;
+    font-weight:400;
+    padding-left:1%;
+    padding-right:1%;
+    border-radius:50px;  
+    cursor: pointer;
+}
+div.services{
+    height:700px;
+    padding:3%;
+    text-align: center;
+}
+span#stopic{
+    text-transform: capitalize;
+    display:block;
+    font-size: 40px;
+}
+span#Ssubhead{
+    padding:2%;
+    display:block;
+    font-size: 19px;
+    color:rgb(134, 134, 134);
+}
+div.packet{
+    line-height:24px;
+    margin-top: 20px;
+}
+div.card{
+    display: inline-block;
+    margin:10px;
+    text-align: left;
+    background-color: #fff;
+    width:26%;
+    height:210px;
+    padding:15px;
+    border-top-right-radius:60px ;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+.cardImage{
+    padding:3px;
+    width:70px;
+    height:80px;
+    margin-left: 23px;
+    display: inline-block;
+}
+span.cardHead{
+    text-transform: capitalize;
+    font-weight: 600;
+    display: block;
+    font-size: 23px;
+}
+span.cardText{
+    display:block;
+    font-size: 15px;
+    color:rgb(134, 134, 134);    
+}
+div.portfolio{
+    height:920px;
+    padding:3%;
+    text-align: center;    
+}
+
+div.portbuttons{
+    margin-top: 45px;
+    list-style-type:none;
+    text-transform:uppercase;
+}
+li.pbutton{
+    background: #fff;
+    font-size: 14px;
+    display: inline;
+    font-weight: 600;
+    padding: 1.5%;
+    padding-left:3%;
+    padding-right:3%;
+    border-bottom-left-radius:140px; 
+    border-top-left-radius:150px;
+    border-top-right-radius:150px;
+    cursor: pointer;
+}
+.gallary{
+    display: inline-block;
+    margin:2%;
+    margin-top: 40px;
+    text-align: left;
+    background-color: #fff;
+    width:27%;
+    border-top-right-radius:100px ;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    height:280px;
+}
+.imglink{
+    display: inline;
+}
+div.blog{
+    height:620px;
+    padding:4%;
+    text-align: center;   
+}
+.poster{
+    display: inline-block;
+    margin-left: 2%;
+    height:500px;
+    width:30%;
+    border-top-left-radius:115px;
+    border-top-right-radius: 115px;
+    position: relative;
+    background: #fff;
+}
+.posterImg{
+    top:30px;
+    width:100%;
+    display:inline-block;
+    border-top-left-radius:110px;
+    border-bottom-left-radius:110px;
+    border-top-right-radius: 110px;
+}
+.pta{
+    padding:0.7%;
+    width:100%; 
+    font-size: 15px;
+    line-height:160%;
+    text-align: left;
+    margin-top:17px;
+}
+.postTopic{
+    font-weight:700;
+    font-size: 21px;
+}
+.postText{
+    color:rgb(134, 134, 134); 
+    
+}
+#blogadmin{
+    color:rgb(134, 134, 134);  
+}
+
+.ourTeam{
+    height:620px;
+    padding:4%;
+    text-align: center;
+    background:white;   
+}
+.profile{
+    display: inline-block;
+    margin-top: 50px;
+    height:68%;
+    width:21%;
+    margin-left:1%;
+    border-top-left-radius:130px;
+    border-top-right-radius:130px;
+    position: relative;
+}
+.profileImg{
+    width:100%;
+    height:265px;
+    display:inline-block;
+    border-bottom: 7px solid #28a9e2;;
+    border-top-left-radius:130px;
+    border-bottom-left-radius:140px;
+    border-top-right-radius: 130px;
+}
+.profileImg:hover{
+    border-top-left-radius:0px;
+    transition-duration: 0.6s;
+    transition-delay: 0.2s;
+}
+.pflta{
+    text-align: center;
+    padding-left: 10px;
+    width:100%; 
+    font-size: 15px;
+    line-height:22px;
+    margin-top:17px;
+    
+}
+.profileName{
+    margin-left: 2%;
+    text-transform: uppercase;
+    color: #28a9e2;
+    font-weight:700;
+    font-size: 21px;
+}
+#profileJob{
+    text-transform:capitalize;
+    margin-left: 2%;
+    color:rgb(134, 134, 134); 
+    font-size: 17px; 
+    
+}
+.share{
+    color:rgb(134, 134, 134);  
+}
+.pricing{
+    height:720px;
+    padding:4%;
+    text-align: center; 
+}
+.priceTag{
+    background:white;
+    padding-top: 50px;
+    display: inline-block;
+    margin-top: 50px;
+    height:500px;
+    width:30%;
+    border-radius:15px;
+    position: relative;
+    margin-right:2%;
+}
+.priceTag:hover{
+    box-shadow: rgb(99, 97, 97) 1px 1px 15px;
+    transition-delay: .1s;
+    transition-duration: .3s;
+}
+.PRICE{
+    background: #28a9e2;
+    position: absolute;
+    top:0px;
+    left:0px;
+    border-radius:15px;
+    height:200px;
+    width:100%;
+    display: block;
+    text-align:left;
+}
+.price{
+    display: inline-block;
+    margin-top: 80px;
+    margin-left:20%;
+    font-size:80px;
+    position: relative;
+    color:white;
+}
+.cents{
+    font-size: 25px;
+    display: inline;
+    position: absolute;
+    top:40px;
+    color:white;
+}
+.perMonth{
+    color:white;
+    text-transform: capitalize;
+    margin-left:3%;
+    font-size:15px; 
+    bottom:65px;
+    position: absolute; 
+    display: inline;
+}
+#package{
+    text-align: center;
+    font-size:270%;
+    text-transform:uppercase;
+    margin-top: 190px;
+    margin-bottom: 40px;
+    display: block;
+    color: #28a9e2;
+}
+.items{
+    display: block;
+    margin-bottom: 10px; 
+    font-size: 19px;
+    text-transform: capitalize;
+    color:rgb(134, 134, 134);  
+}
+.priceButton{
+    list-style-type:none;
+    text-align: center;
+    display: inline-block;
+    width:50%;
+    font-size: 25px;
+    text-transform: uppercase;
+    border-radius:50px;
+    word-spacing: 2px;
+    padding:9px;
+    color:white;
+    background: #000;
+    font-weight:700;   
+    margin-top:20px;   
+    cursor: pointer;
+}
+.priceTA{
+    text-align: center;
+    width:100%;
+    font-size: 15px;
+    line-height:22px;
+    margin-top:17px;   
+}
+
+.tabs{
+    height:auto;
+    padding:5%;
+}
+.tab-content{
+    display:inline-block;
+    width:18%;
+    margin-bottom: 2%;
+}
+.tab{
+    list-style-type:none;
+    float:left;
+    height:auto;
+    font-size:20px;
+    margin-left:1%;
+    text-align: center;
+    padding:3%;
+    cursor: pointer;
+}
+
+.display{
+    display: none;
+}
+.display.active{
+    display: block;
+}
+.active p {
+    font-size:30px;
+}
+.active .story{
+    font-size: 20px;
+}
+
+.scrollBtn{
+    position: relative;
+    width:100%;
+    height:70px;
+}
+.show.backTop{
+    opacity: 0.8;
+}
+.scroll{
+    width:4%;
+    right:0%;
+    bottom:10%;
+    font-size: 28px;
+    line-height:47px;
+    text-align: center;
+    height:50px;
+    border:0px;
+    color:white;
+    position:fixed;
+    text-decoration: none;
+    background:#28aae2;
+    display: none;
+    border-top-left-radius:30px;
+    border-bottom-left-radius:30px;
+    opacity:0.5;
+}
+.show.scroll{
+    display: inline-block;
+}
+.show.scroll:hover{
+    width:7%;
+    transition-delay:0.1s;
+    transition-duration: .5s;
+    opacity:1;
+    cursor:pointer;
+}
+
+
+
+
+@media screen and (max-width: 900px){
+    .icon{
+        display: inline-block;
+        margin-top: 25px;
+        margin-left: 42%;
+     }
+    ul.navBar{
+        background-position: top;
+        overflow:hidden;
+        height:0px;
+        background-color: #28aae2b0;
+        list-style-type:none;
+        text-align:left;
+        margin:0px 0px 0px 0px;
+        display:block;
+        padding:0px;
+        padding-left:12%;
+        right:0%;
+        width:100%;
+        cursor: pointer;
+    }
+    li.navTab{
+        font-size: 16px;
+        font-family: sans-serif;
+        display:block;
+        color:white;
+        text-transform: capitalize;
+        border-bottom-left-radius:140px; 
+        border-top-left-radius:150px;
+        border-top-right-radius:150px;
+        padding:10px;
+        padding-left:20px;
+    }
+    div.mobileNav{
+        border:solid 1px grey;
+        width:100%;
+        margin:50px 0px 0px 0px;
+        background: url(images/apple-touch-icon.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position-x: 50%;
+        background-position-y: auto;
+        background-color:#28aae2b0;
+        height:30px;
+        display:inline-block;
+    }
+    ul.navBar.show{
+        height: auto;
+        z-index: 1;
+    }
+    .headerText{
+        margin:0px 0px auto;
+        font-size:30px;
+        font-weight: 600;
+        font-family: sans-serif;
+        text-transform: capitalize;
+        color:white;
+        display: inline-block;
+    }
+    .maquee{
+        display:inline-block;
+        color:white;
+        margin: 20px auto;
+        width:100%;
+        font-size:20px;
+        font-weight: 10;
+    }
+
+
+
+    
+    div.home2{
+        background-color: #fff;
+        height:890px;
+        padding:4%;
+        position: relative;
+    }
+    .textArea{
+        display:inline-block;
+        top:110px;
+        width:85%;
+        right:4%;
+        text-align: center;
+    }
+    div.pic{
+        top:500px;
+        right:12%;
+        width:71%;
+        height:44%;
+    }
+    #hpic2{
+        top:500px;
+        right:13%;
+        position: absolute;
+        width:71%;
+        height:43%;
+    }
+    span#hht{
+        font-size: 45px;
+    }
+    .hp{
+        font-size:14px;
+        text-align: left;
+    }
+    .h2botton{
+        font-size: 16px;
+        padding:2%;
+        padding-left:1.5%;
+        padding-right:1.5%; 
+    }
+
+
+
+    div.services{
+        height:auto;
+        padding:3%;
+        text-align: center;
+    }
+
+    div.card{
+        width:40%;
+        height:auto;
+    }
+
+
+
+    div.portfolio{
+        height:auto;  
+    }
+
+    li.pbutton{
+    display: inline-block;
+    padding: 3%;
+    padding-left:6%;
+    padding-right:6%;
+    margin-bottom: 2%;
+
+    }
+    .gallary{
+        width:45%;
+    }
+
+
+
+
+    div.blog{
+        height:1750px;
+        padding:4%;
+        text-align: center;   
+    }
+    .poster{
+        display: inline-block;
+        margin-top: 5%;
+        width:48%;
+        position: relative;
+    }
+
+
+
+
+    .ourTeam{
+        height:auto;
+        padding:4%;
+        text-align: center;
+        background:white;   
+    }
+    .profile{
+        margin-top: 50px;
+        height:auto;
+        width:32%;
+        margin-left:5%;
+    } 
+
+
+
+    .pricing{
+        height:auto;
+    }
+    .price{
+        font-size:65px;
+    }
+    .cents{
+        font-size: 22px;
+    }
+    .perMonth{
+        font-size:13px; 
+        margin-left:0%;
+    }
+    #package{
+        margin-top: 180px;
+        margin-bottom: 20px;
+        display:inline-block;
+    }
+    .priceTag{
+        margin-top: 60px;
+        height:500px;
+        width:48%;
+       
+    }
+}
+
+@media screen and (max-width:540px){
+    .icon{
+        display: inline-block;
+        margin-left: 0%;
+     }
+     div.mobileNav{
+        margin:5px 0px 0px 0px;
+    }
+    .headerText{
+        margin:0px 0px auto;
+    }
+    .bannerText{
+        top:2%;
+    }
+
+    .home2{
+        height:1500px;
+    }
+    div.pic{
+        top:70%;
+        right:12%;
+        max-width:100%;
+        height:auto;
+    }
+    #hpic2{
+        top:70%;
+        right:13%;
+        position: absolute;
+        max-width:100%;
+        height:auto;
+    }
+    .h2botton{
+        font-size: 16px;
+        padding:2%;
+        padding-left:1.5%;
+        padding-right:1.5%; 
+    }
+    
+
+
+    div.services{
+        height:auto;
+        padding:3%;
+        text-align: center;
+    }
+
+    div.card{
+        width:70%;
+        height:auto;
+        padding:20px;
+    }
+
+
+
+    div.portbuttons{
+        margin-top: 45px;
+        list-style-type:none;
+        text-transform:uppercase;
+    }
+    li.pbutton{
+        padding: 3%;
+        padding-left:6%;
+        padding-right:6%;
+        margin-bottom: 3%;
+    }
+    .gallary{
+        width:65%;
+    }
+
+
+    div.blog{
+        height:auto;
+        padding:4%;
+        text-align: center;   
+    }
+    .poster{
+        margin-top: 7%;
+        width:80%;
+        height: auto;
+    }
+    span#Ssubhead{
+        padding:2%;
+        display:block;
+        font-size: 18px;
+        color:rgb(134, 134, 134);
+    }
+    .pta{ 
+        font-size: 16px;
+        height:auto;
+    }
+    .postTopic{
+        font-weight:700;
+        font-size: 21px;
+    }
+    .postText{
+        color:rgb(134, 134, 134);         
+    }
+
+    
+    .ourTeam{
+        height:auto;
+        padding:4%;
+        background:white;   
+    }
+    .profile{
+        width:64%;
+    } 
+    .pflta{
+        font-size: 15px;
+        
+    }
+    .profileName{
+        font-size: 27px;
+    }
+    #profileJob{
+        width:100%;
+        font-size: 22px; 
+        
+    }
+    .share{
+        font-size: 17px; 
+    }
+
+    .pricing{
+        height:auto;
+        padding:2%;
+        text-align: center; 
+    }
+    .priceTag{
+        background:white;
+        padding-top: 50px;
+        display: inline-block;
+        margin-top: 50px;
+        height:500px;
+        width:80%;
+        border-radius:15px;
+        position: relative;
+        margin-right:2%;
+    }
+    .priceTag:hover{
+        box-shadow: rgb(99, 97, 97) 1px 1px 15px;
+        transition-delay: .1s;
+        transition-duration: .3s;
+    }
+    .PRICE{
+        background: #28a9e2;
+        position: absolute;
+        top:0px;
+        left:0px;
+        border-radius:15px;
+        height:200px;
+        width:100%;
+        display: block;
+        text-align:center;
+    }
+    .price{
+        margin-left:-20%;
+        font-size:420%;
+    }
+    #package{
+        font-size:250%;
+    }
+}
+
+@media screen and (max-width:340px){
+    .priceButton{
+        width:70%;
+    }
+}
